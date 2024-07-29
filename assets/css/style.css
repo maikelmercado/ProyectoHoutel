@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: cover;  /* se trate de activar y ubr alo maximo posible*/
+    background-repeat: no-repeat; /*para que no sea como un patron*/
+    height: 100vh;  /*medidas relativas va ser el 100 de alto del navegador veiewport height */
+}
+
+/*la fuentes se agrega en fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.header{
+    padding: 20px; /*espacio */
+}
+.logo_imagen{
+    max-width: 150px; /*tamaño maximo al que va a llegar  */
+
+}
+.main{
+    padding: 20px;
+    text-align: center;
+}
+.main_container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main_title{
+    font-size: 1rem;
+    color:  #ffff;
+    font-weight: 300;
+}
+.main_title--emphasis{
+    font-family: "playfair display", serif;
+    font-size: 10rem;
+    font-weight: 700; /*bold*/
+    color: #ffff;
+    display: block;
+}
+.form{
+    background-color: #ffff;
+    border-radius: 5px; /* bordes del fromulario*/
+    max-width: 600px;
+    box-shadow: 1px 1px 1px 3px grey;
+    position: relative;
+    margin: 20px auto; /*valor x y valor y*/
+    padding: 30px; /*espacio*/
+
+}
+.form_label{
+    display: block;
+    color: #c7c7c4;
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 0,8rem;
+    padding: 3px;
+
+
+}
+.form_input--text, 
+.form_input--date,
+.form_select {
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    border: 1px solid #818486;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 0,8 rem;
+    box-sizing: border-box;
+
+
+}
+.form_input--text::placeholder, /* para cambiar el */
+.form_input--date::placeholder{
+    color: #434341;
+}
+
+.button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #48a911;
+    font-size: 1rem;
+
+
+}
+.button--positive{
+    background-color:#6a6d6c;
+}
+
+.button--default{
+    background-color:#8e8a88;
+}
+.form .button--default{
+    display: block;
+    margin:20px auto 0;
+}
+
